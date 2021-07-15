@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animater Css</title>
+    <!------------------ Animate CSS ---------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,h2,h3{
+            text-align: center;
+            background: rgb(16, 42, 90);
+            color: #fff;
+            padding: 20px 0;
+        }
+        h2{
+            text-align: center;
+            background: rgb(8, 116, 31);
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        p{
+            text-align: center;
+            font-size: 3rem;
+            display: flex;
+        }
+
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: rgb(10, 10, 51);
+            text-transform: uppercase;
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <!-------- animation doesn't workes in block element(don't show but works) --------->
+    <p class="animate__animated animate__lightSpeedInLeft animate__infinite">Mahinur Rahman is a web developer!</p>
+    <h2 class="animate__animated animate__zoomInUp"> Rahman is a social-worker!</h2>
+    <h3 class="animate__animated animate__bounceOutDown animate__delay-2s">Mahinur Rahman is a web designer!</h3>
+
+    <div>
+        <div class="box animate__animated animate__hinge">this is a text</div>
+    </div>
+
+</body>
+</html>
